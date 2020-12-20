@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.1"
 
     defaultConfig {
-        applicationId "com.Zaini758.vbeseller"
+        applicationId "com.biluutech.vbeseller"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1

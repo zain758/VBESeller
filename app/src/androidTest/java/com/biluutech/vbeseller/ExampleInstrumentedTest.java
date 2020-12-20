@@ -1,4 +1,4 @@
-package com.Zaini758.vbeseller;
+package com.biluutech.vbeseller;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.Zaini758.vbeseller", appContext.getPackageName());
+        assertEquals("com.biluutech.vbeseller", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package com.Zaini758.vbeseller;
+package com.biluutech.vbeseller;
 
 import org.junit.Test;
 
