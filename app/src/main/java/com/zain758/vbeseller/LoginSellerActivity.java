@@ -1,15 +1,10 @@
-package com.biluutech.vbeseller;
+package com.zain758.vbeseller;
 
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 public class LoginSellerActivity extends AppCompatActivity {

@@ -1,6 +1,5 @@
-package com.biluutech.vbeseller;
+package com.zain758.vbeseller;
 
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
