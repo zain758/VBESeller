@@ -1,4 +1,4 @@
-package com.biluutech.vbeseller;
+package com.Zaini758.vbeseller;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,22 +7,23 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class SignupSellerActivity extends AppCompatActivity {
+public class LoginSellerActivity extends AppCompatActivity {
 
-    private TextView loginTV;
+
+    private TextView signupTV;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signup_seller);
+        setContentView(R.layout.activity_login_seller);
 
-        loginTV = (TextView) findViewById(R.id.login_TV);
+        signupTV = (TextView) findViewById(R.id.signup_TV);
 
-        loginTV.setOnClickListener(new View.OnClickListener() {
+        signupTV.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                startActivity(new Intent(SignupSellerActivity.this,LoginSellerActivity.class));
+                startActivity(new Intent(LoginSellerActivity.this,SignupSellerActivity.class));
                 finish();
 
             }
